@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0px auto;
+  background-color: #ffffff
+}
+
+
+.login-box {
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 70px;
+  width: 590px;
+  text-align: center;
+  align-items: center;
+  margin: 80px auto;
+  position: relative;
+}
+
+
+.login-box h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  font-size: 16px;
+  color: #333333ad;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.a-brnd{
+  color: #ffff;
+}
+
+.a-rgstr{
+  color: #4caf50;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
+
+input[type="password"] {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  transform:translateX(-150%)translateY(-150%);
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.password-options {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.password-options a {
+  font-size: 12px;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.btn-login {
+  background-color: #3ecf4c;
+  color: #fff;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-register {
+  background-color: #e0f7e9;
+  color: #4caf50;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.or-divider {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.btn-google {
+  background-color: #fff;
+  color: #444;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-google {
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+/* media query */
+@media screen and (max-width: 480px){
+  .container, .login-box{
+    max-width: 90%;
+    max-height: 100vh;
+    margin:5% auto;
+  }
+
+
+  h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  p{
+    font-size: 14px;
+    font-weight:400;
+    text-align: center;
+
+  }
+}
+
+
+
